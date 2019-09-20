@@ -8,7 +8,7 @@ def word_n_gram(n, sentence):
         tmp += words[i]
         if cnt == n or i == len(words) - 1:
             res.append(tmp)
-            tmp = " "
+            tmp = ""
             cnt = 0
     return res
 
